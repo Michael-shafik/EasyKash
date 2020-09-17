@@ -1,0 +1,103 @@
+.add h4{
+    text-align: center;
+    font-size: 30px;
+    color:#667fff;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copy .form-group  label{
+    font-size: 20px;
+    color:#667fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.copy .form-group .form-control-inline{
+    background-color:#fff;
+}
+.links{
+    padding: 50px;
+    background-color:#ffffff;
+}
+.links h3{
+    font-size: 20px;
+    color:#667fff;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+.links a{
+    font-size: 20px;
+    color:#667fff;
+    font-weight: bold;
+text-decoration: underline;
+}
+/* start div basic info*/
+.basic-info{
+    background-color:#ffffff;
+}
+.basic-info h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    color:#4b73a5;
+}
+.basic-info .form-group{
+    color: rgb(14, 8, 94);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.basic-info .form-group .form-control{
+    background-color:#fff;
+}
+/*end basic info */
+/*start question */
+.question{
+    padding: 50px;
+    background-color:#fff;
+}
+.question .test{
+    margin-bottom: 28px;
+}
+.question h4{
+    font-size: 20px;
+    color:#525fab;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.question .radio{
+    font-size: 30px;
+    color:#60bee7;
+    margin-bottom: 25px;
+}
+.question .radio .radio-inline{
+    margin-left: 20px;
+}
+.checkbox-inline{
+    margin-left: 20px;
+font-size: 16px;
+color:#525fab ;
+}
+ .submit a{
+ border-radius: 20px;
+ font-size: 22px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ padding: 10px;
+ display: inline-block;
+ border: 1px solid#0f75bd;
+ padding: 2px 10px;
+ margin-left: 20px;
+background-color:#0f75bd;
+color: gainsboro;
+
+}
+
+ 
+
+   
+ .submit a:hover{
+    background-color: #0fc268;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    }

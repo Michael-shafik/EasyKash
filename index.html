@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title> responsive bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="EasyKashStyle.css">
+</head>
+<body>
+  <hr>
+  <div class="container">
+  <div class="row">
+    <div class=" add col-sm-12 col-md-6">
+     <h4>Add Event</h4>   
+    </div>
+    <div class=" copy col-sm-12 col-md-6 ">
+      <div class="form-group ">
+        <label for="sel1">
+          copy form product</label>
+        <select class="form-control-inline w-50" id="sel1" >
+          <option>1</option>
+          <option>2</option>
+        </select>
+      </div>
+       </div>
+  </div>
+</div>
+<hr>
+  <!---start  links-->
+  <div class="links  text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <a href="Basic Info">
+          <i class="fa fa-phone fa-3x"></i>
+          <h3>1) Basic Info </h3>
+        </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="Extra Info">
+          <i class="fa fa-home fa-3x"></i>
+          <h3>2) Extra Info </h3>
+        </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="Add Ticket">
+          <i class="fa fa-home fa-3x rounded-circle"></i>
+          <h3> 3) Add Ticket </h3>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <a href="Buyers Information">
+          <i class="fa fa-phone fa-3x rounded-circle"></i>
+          <h3> 4) Buyers Information</h3>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!---End links-->
+  <!--start  basic info-->
+  <div class="basic-info">
+    <div class="container">
+      <h2> Basic Info</h2>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="form-group">
+            <label for="Name">Event Name:</label>
+            <input type="text" class="form-control"  id="Name" placeholder="Event name" required>
+          </div>    
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="form-group">
+            <label for="Expiry">Event Name:</label>
+            <input type="date" class="form-control"  id="Expiry" placeholder="Expiry date" required>
+          </div>    
+           </div>
+  <div class="col-sm-12 col-md-6">
+    <div class="form-group">
+      <label for="event">Event Description:</label>
+      <textarea class="form-control"  id="event" placeholder="Event Description" required></textarea>
+    </div>   
+   </div>
+  <div class="col-sm-12 col-md-6">
+    <div class="form-group ">
+      <label for="comment">After payment:</label>
+      <textarea class="form-control"  id="comment" placeholder="After Payment Message" ></textarea>
+    </div>    
+   </div>
+  </div>
+  </div>
+  <hr>
+    <!---end basic info -->
+  <!---start question-->
+  <div class="question ">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 test">
+          <h4>Do you want to show this Event on your shop?</h4>
+        </div>
+        <div class="col-sm-12 col-md-6 test ">
+          <div class="radio">
+            <label class="radio-inline"><input type="radio" name="q1">Yes</label>
+            <label class="radio-inline"><input type="radio" name="q1">NO</label>
+           </div>
+        </div>
+        <div class="col-sm-12 col-md-6 test">
+          <div class="test">
+          <h4>Payment options</h4></div>
+        </div>
+  <div class="col-sm-12 col-md-6 test">
+    <label class="checkbox-inline"><input type="checkbox" value="">Cash through AMAN
+      </label>
+    <label class="checkbox-inline"><input type="checkbox" value=""> Mobile Wallet
+    </label>
+    <label class="checkbox-inline"><input type="checkbox" value="">Meeza</label>
+    <label class="checkbox-inline"><input type="checkbox" value="">CASH API</label>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <h4>Cash Expiry Duration</h4>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <div class="form-group">
+      <select class="form-control" >
+        <option>3 Hour</option>
+        <option>6 Hour</option>
+        <option>12 Hour</option>
+        <option>24 Hour</option>
+        <option>48 Hour</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <h4>Do you want the fees to be on the buyer?</h4>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="q2">Yes</label>
+      <label class="radio-inline"><input type="radio" name="q2">NO</label>
+     </div>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <h4>Viewing Currency</h4>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <div class="form-group">
+      <select class="form-control" >
+        <option>EGP</option>
+        <option>USD</option>
+      </select>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <h4>Do you want to apply Taxes for this Event?</h4>
+  </div>
+  <div class="col-sm-12 col-md-6 test">
+    <div class="radio">
+      <label class="radio-inline"><input type="radio" name="q3">Yes</label>
+      <label class="radio-inline"><input type="radio" name="q3">NO</label>
+     </div>
+  </div>
+  <div class="submit">
+    <a href="#" class="btn btn-info">SAVE AND CONTINUE</a>
+</div>
+</div>
+  </div>
+  </div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
