@@ -1,103 +1,215 @@
-.add h4{
-    text-align: center;
-    font-size: 30px;
-    color:#667fff;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body{
+  padding: 0;
+  margin: 0;
 }
-.copy .form-group  label{
-    font-size: 20px;
-    color:#667fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.add h4 {
+  font-size: 25px;
+  color: #667fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.copy .form-group .form-control-inline{
-    background-color:#fff;
+
+.copy .form-group label {
+  font-size: 20px;
+  color: #667fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.links{
-    padding: 50px;
-    background-color:#ffffff;
+.copy .form-group .form-control-inline {
+  background-color: #fff;
 }
-.links h3{
-    font-size: 20px;
-    color:#667fff;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 15px;
+.links {
+  padding: 30px;
+  background-color: #ffffff;
 }
-.links a{
-    font-size: 20px;
-    color:#667fff;
-    font-weight: bold;
-text-decoration: underline;
+.links h3 {
+  font-size: 18px;
+  color: #667fff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 15px;
 }
+.links a {
+  font-size: 14px;
+  color: #667fff;
+}
+
 /* start div basic info*/
-.basic-info{
-    background-color:#ffffff;
+.basic-info {
+  background-color: #ffffff;
 }
-.basic-info h2{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 30px;
-    color:#4b73a5;
+.basic-info h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  color: #4b73a5;
 }
-.basic-info .form-group{
-    color: rgb(14, 8, 94);
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
+.basic-info .form-group {
+  color: rgb(14, 8, 94);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
-.basic-info .form-group .form-control{
-    background-color:#fff;
+.basic-info .form-group .form-control {
+  background-color: #fff;
 }
 /*end basic info */
 /*start question */
-.question{
-    padding: 50px;
-    background-color:#fff;
+.question {
+  padding: 50px;
+  background-color: #fff;
 }
-.question .test{
-    margin-bottom: 28px;
+.question .test {
+  margin-bottom: 28px;
+  
 }
-.question h4{
-    font-size: 20px;
-    color:#525fab;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+.question h4 {
+  font-size: 16px;
+  color: #525fab;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  margin-right: 20px;
 }
-.question .radio{
-    font-size: 30px;
-    color:#60bee7;
-    margin-bottom: 25px;
-}
-.question .radio .radio-inline{
-    margin-left: 20px;
-}
-.checkbox-inline{
-    margin-left: 20px;
-font-size: 16px;
-color:#525fab ;
-}
- .submit a{
- border-radius: 20px;
- font-size: 22px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- padding: 10px;
- display: inline-block;
- border: 1px solid#0f75bd;
- padding: 2px 10px;
- margin-left: 20px;
-background-color:#0f75bd;
-color: gainsboro;
-
+.question .radio {
+  font-size: 20px;
+  color: #60bee7;
+  margin-bottom: 25px;
 }
 
- 
+.checkbox-inline {
+  font-size: 16px;
+  color: #525fab;
+  padding-left: 10px;
+}
 
-   
- .submit a:hover{
-    background-color: #0fc268;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    }
+
+
+
+/* --------------------------form 2 css---------------------------------------------*/
+#form-2{
+  display: block;
+}
+/*end event locaction css*/
+.event-adress {
+  margin-top: 38px;
+}
+/*start event adress css*/
+.basic-info .basic {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: calc(8em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #083461;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #711f37;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-bottom: 50px;
+}
+.basic-info .basic span {
+  display: block;
+  color: cadetblue;
+  margin-top: 15px;
+}
+.basic-info .basic span:nth-child(2) {
+  display: block;
+  font-size: 20px;
+  color: rgb(35, 6, 88);
+}
+/*end choose file*/
+/*star event locaction css*/
+
+.event-location .set-location a {
+  color: gainsboro;
+}
+.event-location .set-location a:hover {
+  background-color: #0fc268;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/*start facebool link css*/
+.facebook-link {
+  margin-bottom: 30px;
+}
+/*end facebool link css*/
+/*start 2 button css*/
+.previous a {
+  float: left;
+}
+.save button{
+  float: right;
+}
+
+/*end  2 button css*/
+ .copyright {
+  background-color: #e4ecf7;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    line-height: 2;
+}
+.copyright span {
+  font-size: 20px;
+  color: dimgray;
+}
+/**************************page3 css******************************/
+#form-3{
+  display: block;
+}
+.add-ticket h2 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+  color: #4b73a5;
+}
+
+.add-ticket .row {
+  margin-bottom: 50px;
+}
+.add-ticket .form-control {
+  margin-top: 30px;
+}
+
+/**************************button-add******************************/
+.button-add {
+  padding: 30px;
+  border: 1px solid #60bee7;
+}
+.button-add input {
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+  background-color: greenyellow;
+  color: ivory;
+}
+/**************************assk******************************/
+
+.assk {
+  padding: 50px;
+  background-color: #fff;
+}
+.question .test {
+  margin-bottom: 28px;
+}
+.assk h4 {
+  font-size: 18px;
+  color: #525fab;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+.assk .radio {
+  font-size: 20px;
+  color: #60bee7;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.assk.radio label {
+  margin-left: 20px;
+}
